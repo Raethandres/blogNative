@@ -1,8 +1,18 @@
 {
   "expo": {
-   "name": "listPrueba",
-   "icon": "./app/images/img.png",
-   "version": "1.0.0",
-   "sdkVersion": "25.0.0"
+    "name": "listaPrueba",
+    "description": "No description",
+    "slug": "listaPrueba",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/images/img.png",
+    "ios": {
+      "bundleIdentifier": "com.raeth.listaPrueba"
+    },
+     "android": {
+      "package": "com.raeth.listaPrueba"
+    }
   }
-  }
+}
