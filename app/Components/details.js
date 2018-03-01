@@ -27,11 +27,17 @@ export default class Details extends React.Component {
 
       <Text style={{fontSize:40,textAlign:'left',}} >{params.title}</Text>
       <Image
-          resizeMode="contain" 
-          style={{flexShrink:1}}
+          style={{
+            alignSelf: 'center',
+            height: 150,
+            width: 150,
+            borderWidth: 1,
+          }}
+          resizeMode="stretch"
           source={{uri:params.img}}
         />
       <Text style={{fontSize:30,textAlign:'left',}}>{params.subtitle}</Text>
+      <Text/>
       <Text>{params.text}</Text>
       </ScrollView>
       </View>

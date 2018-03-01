@@ -7,14 +7,12 @@ export function fetchList(js) {
 }
 
 function Json(json){
-	console.log(json)
 	js=[]
 		let d=0
 		while (json[d]!=undefined) {
 			js.push(json[d])
 			d++
 		}
-		console.log(js)
 	return(fetchList(js))
 }
 
@@ -32,4 +30,11 @@ export function fetchData() {
 				console.error(error);
 				});
 				}
+}
+
+export function RefetchData() {
+	return function(dispatch) {
+		dispatch({type:"REFETTCH_LIST"})
+		
+	}
 }

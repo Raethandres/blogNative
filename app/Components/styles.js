@@ -10,9 +10,9 @@ const style={
       flexShrink:1,
       backgroundColor: '#f4511e',
       paddingHorizontal: 100,
-      paddingVertical: 50,
-      marginTop:20,
-      borderRadius:10,
+      paddingVertical: 30,
+      marginTop:5,
+      borderRadius:5,
     },
     
   }
